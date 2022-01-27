@@ -1,4 +1,5 @@
 - First clone/download this repo
+- Run `composer install` rename `.env.example` to `.env`
 - Create a database and set the name on `.env`
 - Run `php artisan migrate` and `php artisan db:seed`
 - Run `php artisan serve` and open browser.
@@ -33,3 +34,8 @@ How do I keep the styling and functionaly even after livewire changes the DOM?
 Any person give me a valid solution will be rewared with $50 (PayPal/Crypto/Gift card whatever you prefer.)
 
 I am not kidding..!!
+
+## At first all good
+![Screenshot 2022-01-27 142638](https://user-images.githubusercontent.com/18257605/151325691-37367d23-f3b9-434b-a535-7bfac4afc720.png)
+## After livewire changes DOM everything breaks
+![Screenshot 2022-01-27 142702](https://user-images.githubusercontent.com/18257605/151325699-9615212e-3a4d-4868-a05a-52098894bd6c.png)
