@@ -23,5 +23,10 @@
     <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/extensions/fixed-columns/bootstrap-table-fixed-columns.js"></script>
     @livewireScripts
+    <script>
+        Livewire.hook('element.updated', (el, component) => {
+            $('#table').bootstrapTable()
+        })
+    </script>
 </body>
 </html>

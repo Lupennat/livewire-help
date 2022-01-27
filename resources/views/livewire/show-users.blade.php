@@ -1,19 +1,17 @@
 <div>
-
     Select status:
     <select class="form-select mb-5" wire:model="status">
         <option value="all" selected>All</option>
         <option value="1">Actives only</option>
     </select>
 
-    <table
-    data-toggle="table"
-    data-height="360"
-    data-fixed-columns="true"
-    data-fixed-number="1"
-    data-fixed-right-number="1"
-    class="table table-hover table-bordered align-middle text-center text-nowrap"
-    >
+    <table id="table"
+        data-toggle="table"
+        data-height="360"
+        data-fixed-columns="true"
+        data-fixed-number="1"
+        data-fixed-right-number="1"
+        class="table table-hover table-bordered align-middle text-center text-nowrap">
         <thead>
             <tr>
                 <th scope="col">Id</th>
